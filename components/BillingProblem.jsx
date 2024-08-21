@@ -6,7 +6,7 @@ class BillingProblem extends Component {
   render() {
     return(
       <div className="content-center align-middle">
-        <h1 className="float-left">
+        <h1 className="float-left h-1 font-bold">
           Billing Problem
         </h1>
         <div className="rotate-11">
