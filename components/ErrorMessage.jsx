@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ErrorMessage = props => <div className="align-middle font-bold">
-    <div className="text-red-500 content-center">
+const ErrorMessage = props => <div className="font-bold h-110">
+    <div className="text-red-500">
       {props.message}
     </div>
     <div>
