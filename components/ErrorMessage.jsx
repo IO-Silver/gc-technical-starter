@@ -6,7 +6,7 @@ const ErrorMessage = props => <div className="font-semibold h-110 text-center mb
     </div>
     <br/>
     <div>
-      {props.reason}
+      You have a <span className="font-bold">{props.balance}</span> balance owing for longer than 20 days.
     </div>
   </div>
 

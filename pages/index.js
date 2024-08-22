@@ -12,7 +12,7 @@ export default function Home() {
 
       <Logo />
       <BillingProblem errorMessage="It looks like your billing method on file may not be setup correctly."
-                      reason="You have $1,204.03 balance owing for longer than 20 days."
+                      balance="$1,204.03"
                       primaryAction="View All Invoices"
                       secondaryAction="Fix Payment Method & Pay Now"
                       reconciliation="Once the payment method is fixed and balance is paid, you'll be able to access your account again." />

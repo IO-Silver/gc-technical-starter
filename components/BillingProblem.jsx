@@ -16,10 +16,10 @@ class BillingProblem extends Component {
             </h1>
           </div>
           <br/>
-          <ErrorMessage message={this.props.errorMessage} reason={this.props.reason} />
+          <ErrorMessage message={this.props.errorMessage} balance={this.props.balance} />
           <Actions primary={this.props.primaryAction} secondary={this.props.secondaryAction} />
           <br/>
-          <div className="w-[240px] h-[80px] mx-[45px] text-xs">
+          <div className="w-[240px] h-[80px] mx-[45px] text-xs font-semibold">
             <div className="text-center">
               {this.props.reconciliation}
             </div>
