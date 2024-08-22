@@ -7,28 +7,32 @@ class BillingProblem extends Component {
     return(
       <div className="flex h-screen w-screen items-center justify-center">
         <div className="flex-col w-[330px] h-[413px]">
-          <h1 className="font-bold">
-            Billing Problem
-          </h1>
-          <div className="rotate-11">
-          😅
+          <div>
+            <h1 className="font-bold text-4xl">
+              Billing Problem
+            <div className="rotate-[-15deg] float-right">
+            😅
+            </div>
+            </h1>
           </div>
-
+          <br/>
           <ErrorMessage message={this.props.errorMessage} reason={this.props.reason} />
           <Actions primary={this.props.primaryAction} secondary={this.props.secondaryAction} />
-
-          <div className="">
-            {this.props.reconciliation}
-          </div>
-
-          <div className="w-240 h-80">
-            <a href="localhost:3000" className="mx-3">
-              Email Us
-            </a>
-            |
-            <a href="localhost:3000" className="mx-3">
-              Live Chat
-            </a>
+          <br/>
+          <div className="w-[240px] h-[80px] mx-[45px] text-xs">
+            <div className="text-center">
+              {this.props.reconciliation}
+            </div>
+            <br/>
+            <div className="text-center text-blue-600">
+              <a href="localhost:3000" className="mx-2">
+                Email Us
+              </a>
+              |
+              <a href="localhost:3000" className="mx-2">
+                Live Chat
+              </a>
+            </div>
           </div>
         </div>
       </div>
