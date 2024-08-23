@@ -2,8 +2,8 @@ import React from 'react';
 
 const Logo = () =>
   // Load the icon svg and GiveCloud
-  <div className="font-bold h-1 origin-top-left m-4 ml-10">
-    <h1>givecloud</h1>
+  <div className="origin-top-left mt-[25px] ml-[27px]">
+    <img src="logo.png" className="w-[156px] h-[29px]" />
   </div>
 
 export default Logo;
